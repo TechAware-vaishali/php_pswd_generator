@@ -1,3 +1,4 @@
+<form method="post" action="index.php" align="center">
 <?php
     $password=$_POST['password'];
     $string="1234567890!@$%^&*abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
@@ -9,7 +10,7 @@
     $pswd = $pswd.$a;
      }
 
-    echo "Your Password Sting = ";
+    echo "Your Password String = ";
     echo $string;
     echo "<br>";
     echo "<br>";
@@ -19,7 +20,7 @@
 
 
 ?>
-<form method="post" action="test.php" align="center">
+
    <br>
     <input type="number" name="password" value="10"/>
 
